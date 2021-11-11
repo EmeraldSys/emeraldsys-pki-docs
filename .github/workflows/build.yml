@@ -16,6 +16,5 @@ jobs:
       - name: Publish Static Site
         uses: jamesives/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           BRANCH: gh-pages
           FOLDER: public
