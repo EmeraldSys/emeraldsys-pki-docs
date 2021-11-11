@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://docs.pki.emeraldsys.xyz",
     title: "EmeraldSys PKI Docs",
   },
   plugins: [
