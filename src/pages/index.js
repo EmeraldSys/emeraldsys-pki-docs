@@ -1,11 +1,14 @@
-import * as React from "react";
+import * as React from "react"
+import "../styles/index.css"
 
 const DocsPage = () => {
     return (
         <body>
-            Hello World
+            <div>
+                Hello World
+            </div>
         </body>
     );
 };
 
-export default DocsPage;
+export default DocsPage
