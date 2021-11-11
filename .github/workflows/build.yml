@@ -1,0 +1,21 @@
+name: "Gatsby Build"
+on:
+  push:
+    branches: ["main"]
+
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build Static Site
+        run: |
+          npm i
+          npm run build
+      - name: Publish Static Site
+        uses: jamesives/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
