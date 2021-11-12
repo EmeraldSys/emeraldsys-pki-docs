@@ -1,4 +1,5 @@
 .sidebarMain {
+    display: flex;
     position: absolute;
     background: #171717 left bottom no-repeat;
     margin-top: 1rem;

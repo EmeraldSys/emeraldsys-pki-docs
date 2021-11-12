@@ -34,6 +34,16 @@ body {
     font-size: 40px;
 }
 
+.subtitleBold {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sectionSubtitleExtraBold {
+    font-weight: 700;
+    font-size: 25px;
+}
+
 .spacing {
     margin-bottom: 10px;
 }
@@ -41,4 +51,15 @@ body {
 .contentLight {
     font-weight: 300;
     font-size: 20px;
+}
+
+.contentBold {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contentCode {
+    display: inline-block;
+    font-family: monospace;
+    background: #171717;
 }
