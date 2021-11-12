@@ -1,0 +1,18 @@
+.sidebarMain {
+    position: absolute;
+    background: #171717 left bottom no-repeat;
+    margin-top: 1rem;
+    height: 100vh;
+    width: 250px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 50%);
+}
+
+.sidebarContents {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+
+.sidebarContents > li + li {
+    margin-top: 5px;
+}
