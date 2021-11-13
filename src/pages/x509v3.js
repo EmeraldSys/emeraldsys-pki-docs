@@ -1,9 +1,9 @@
 import * as React from "react"
+import "../styles/index.css"
+import { Helmet } from "react-helmet"
 import Header from "../components/Header.js"
 import Sidebar from "../components/Sidebar.js"
 import Footer from "../components/Footer.js"
-import "../styles/index.css"
-import { Helmet } from "react-helmet"
 
 const X509V3Page = () => {
     return (
@@ -18,15 +18,15 @@ const X509V3Page = () => {
                 <p className="spacing" />
                 <p className="contentLight">This section of the documentation covers the X509v3 API.</p>
                 <p className="contentCode">https://api.pki.emeraldsys.xyz/v1/certs</p>
-                <div id="generateCsr" style={{ display: "block", marginTop: "75px" }}>
+                <div id="generateCsr" className="docsContentSection">
                     <span className="subtitleBold">Generating a CSR</span>
                     <p className="spacing" />
                     <p className="contentCode">POST /csr</p>
                     <p className="spacing" />
                     <p className="contentLight">This endpoint allows you to generate a CSR for use with any certificate authority.</p>
                     <p className="spacing" />
-                    <div className="generateCsrParams">
-                        <p className="sectionSubtitleExtraBold">JSON Request Body</p>
+                    <div id="generateCsrParams">
+                        <span className="sectionSubtitleExtraBold">JSON Request Body</span>
                         <p className="contentCode">
                             * &lt;string&gt; commonName
                             <br />

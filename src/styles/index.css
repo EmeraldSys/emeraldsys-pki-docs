@@ -24,6 +24,11 @@ body {
     text-align: center;
 }
 
+.docsContentSection {
+    display: block;
+    margin-top: 75px;
+}
+
 .titleBold {
     font-weight: 500;
     font-size: 40px;

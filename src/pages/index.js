@@ -1,9 +1,9 @@
 import * as React from "react"
+import "../styles/index.css"
+import { Helmet } from "react-helmet"
 import Header from "../components/Header.js"
 import Sidebar from "../components/Sidebar.js"
 import Footer from "../components/Footer.js"
-import "../styles/index.css"
-import { Helmet } from "react-helmet"
 
 const DocsPage = () => {
     return (
