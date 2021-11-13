@@ -1,0 +1,32 @@
+aside {
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+}
+
+/* .sidebarMain {
+    display: flex;
+    position: absolute;
+    background: #171717 left bottom no-repeat;
+    height: 100vh;
+    width: 250px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 50%);
+} */
+
+.sidebarMain {
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    background: #171717 left bottom no-repeat;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 50%);
+}
+
+.sidebarContents {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+
+.sidebarContents > li + li {
+    margin-top: 5px;
+}
