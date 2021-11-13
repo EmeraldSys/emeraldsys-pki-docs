@@ -27,6 +27,7 @@ const X509V3Page = () => {
                     <p className="spacing" />
                     <div id="generateCsrParams">
                         <span className="sectionSubtitleExtraBold">JSON Request Body</span>
+                        <p className="spacing" />
                         <p className="contentCode">
                             * &lt;string&gt; commonName
                             <br />
@@ -59,7 +60,8 @@ const X509V3Page = () => {
                     </div>
                     <p className="spacing" />
                     <div className="generateCsrResp">
-                        <p className="sectionSubtitleExtraBold">Responses</p>
+                        <span className="sectionSubtitleExtraBold">Responses</span>
+                        <p className="spacing" />
                         <p className="contentCode">
                             Success - 201 Created
                             <br />
@@ -78,7 +80,8 @@ const X509V3Page = () => {
                     <p className="contentLight">This endpoint allows you to request a certificate for your use case. Please note: only domain validation certificates can be requested at this time.</p>
                     <p className="spacing" />
                     <div className="requestCertParams">
-                        <p className="sectionSubtitleExtraBold">JSON Request Body</p>
+                        <span className="sectionSubtitleExtraBold">JSON Request Body</span>
+                        <p className="spacing" />
                         <p className="contentCode">
                             * &lt;string&gt; csr
                             <br />
@@ -87,7 +90,8 @@ const X509V3Page = () => {
                     </div>
                     <p className="spacing" />
                     <div className="requestCertResp">
-                        <p className="sectionSubtitleExtraBold">Responses</p>
+                        <span className="sectionSubtitleExtraBold">Responses</span>
+                        <p className="spacing" />
                         <p className="contentCode">
                             Success - 201 Created
                             <br />
