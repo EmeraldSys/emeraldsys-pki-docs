@@ -13,7 +13,7 @@ const Header = () => {
     const isSticky = (e) => {
         const header = document.querySelector(".mainHeader");
         const scrollTop = window.scrollY;
-        scrollTop >= 65 ? header.classList.add("sticky") : header.classList.remove("sticky");
+        scrollTop > 0 ? header.classList.add("sticky") : header.classList.remove("sticky");
     };
 
     return (
