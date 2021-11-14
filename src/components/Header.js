@@ -17,7 +17,7 @@ const Header = () => {
     };
 
     return (
-        <header aria-label="mainHeader" className="mainHeader">
+        <header className="mainHeader">
             <div className="alignHeader">
                 <img src="https://emeraldsys.github.io/images/company2_banner_white.png" alt="Logo" style={{ height: "45px", marginTop: "15px" }} />
             </div>
