@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+	"test": "jest",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -27,5 +28,11 @@
     "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
   }
 }
