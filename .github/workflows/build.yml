@@ -19,6 +19,7 @@ jobs:
     name: GitHub Pages
     runs-on: ubuntu-latest
     if: ${{ success() && !startsWith(github.ref, 'refs/pull') }}
+    needs: test
     steps:
       - uses: actions/checkout@v2
       - name: Install Dependencies
