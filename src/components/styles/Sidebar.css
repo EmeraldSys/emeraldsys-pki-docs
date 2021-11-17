@@ -30,3 +30,8 @@ aside {
 .sidebarContents > li + li {
     margin-top: 5px;
 }
+
+.sidebarLink {
+    color: #fff;
+    text-decoration: none;
+}
