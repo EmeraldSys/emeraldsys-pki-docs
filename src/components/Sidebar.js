@@ -6,10 +6,10 @@ const Sidebar = () => {
         <aside>
             <div className="sidebarMain">
                 <ul className="sidebarContents">
-                    <li><a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a></li>
-                    <li><a href="/x509v3" style={{ color: "#fff", textDecoration: "none" }}>X509v3 API</a></li>
-                    <li><a href="/ocsp" style={{ color: "#fff", textDecoration: "none" }}>OCSP API</a></li>
-                    <li><a href="/timestamp" style={{ color: "#fff", textDecoration: "none" }}>Timestamp API</a></li>
+                    <li><a href="/" className="sidebarLink">Home</a></li>
+                    <li><a href="/x509v3" className="sidebarLink">X509v3 API</a></li>
+                    <li><a href="/ocsp" className="sidebarLink">OCSP API</a></li>
+                    <li><a href="/timestamp" className="sidebarLink">Timestamp API</a></li>
                 </ul>
             </div>
         </aside>
