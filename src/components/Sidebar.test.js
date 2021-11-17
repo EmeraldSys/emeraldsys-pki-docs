@@ -54,8 +54,8 @@ describe("Sidebar", () => {
         {
             for (let anchor of li.getElementsByTagName("a"))
             {
-                expect(anchor.style.color).toEqual("rgb(255, 255, 255)");
-                expect(anchor.style.textDecoration).toEqual("none");
+                expect(anchor).toHaveStyle("color: rgb(255, 255, 255);");
+                expect(anchor).toHaveStyle("text-decoration: none;");
             }
         }
     });
