@@ -45,18 +45,4 @@ describe("Sidebar", () => {
             expect(li.getElementsByTagName("a").length).toBeGreaterThanOrEqual(1);
         }
     });
-
-    it("Sidebar content container list item hyperlinks styled correctly", () => {
-        const { container } = render(<Sidebar />);
-        const component = container.getElementsByClassName("sidebarMain")[0].getElementsByClassName("sidebarContents")[0];
-        expect(component).not.toBeNull();
-        for (let li of component.getElementsByTagName("li"))
-        {
-            for (let anchor of li.getElementsByTagName("a"))
-            {
-                expect(anchor).toHaveStyle("color: rgb(255, 255, 255);");
-                expect(anchor).toHaveStyle("text-decoration: none;");
-            }
-        }
-    });
 });
