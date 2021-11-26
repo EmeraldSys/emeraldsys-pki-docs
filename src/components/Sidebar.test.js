@@ -29,11 +29,11 @@ describe("Sidebar", () => {
         expect(component.tagName.toLowerCase()).toEqual("ul");
     });
 
-    it("Sidebar content container has 4 list items", () => {
+    it("Sidebar content container has 5 list items", () => {
         const { container } = render(<Sidebar />);
         const component = container.getElementsByClassName("sidebarMain")[0].getElementsByClassName("sidebarContents")[0];
         expect(component).not.toBeNull();
-        expect(component.getElementsByTagName("li").length).toBe(4);
+        expect(component.getElementsByTagName("li").length).toBe(5);
     });
 
     it("Sidebar content container list items each have a hyperlink", () => {
