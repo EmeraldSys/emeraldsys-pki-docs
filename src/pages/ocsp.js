@@ -18,7 +18,7 @@ const OCSPPage = () => {
                 <p className="spacing" />
                 <p className="contentLight">This section of the documentation covers the OCSP (Online Certificate Status Protocol) API.</p>
                 <p className="contentCode">https://ocsp.pki.emeraldsys.xyz</p>
-                <p className="contentLight">You can download EmeraldSys intermediate certificates <a href="https://crt.pki.emeraldsys.xyz" style={{ color: "#fff" }}>here</a>.</p>
+                <p className="contentLight">You can download EmeraldSys intermediate certificates <a href="/certs" style={{ color: "#fff" }}>here</a>.</p>
                 <div id="fetchCertStatusAuto" className="docsContentSection">
                     <span className="subtitleBold">Fetching a Certificate's Status (Auto)</span>
                     <p className="spacing" />

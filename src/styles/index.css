@@ -63,3 +63,29 @@ body {
     font-family: monospace;
     background: #171717;
 }
+
+.contentHex {
+    font-size: 80%;
+    background: #eee;
+    background-color: rgb(34, 36, 38);
+    border: 1px solid #ddd;
+    border-color: rgb(58, 62, 65);
+    border-radius: 3px;
+}
+
+.roots td {
+    border: 1px solid #ccc;
+    border-color: rgb(62, 68, 70);
+    font-size: 14px;
+    padding: 16px;
+}
+
+td.label {
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(200, 195, 188);
+}
+
+.roots td.label {
+    background: rgb(33, 36, 37);
+}
