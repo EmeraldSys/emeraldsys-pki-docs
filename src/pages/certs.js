@@ -59,22 +59,22 @@ const RootCertsPage = () => {
                        </tr>
                        <tr>
                            <td className="label" nowrap="nowrap">
-                               <span>EmeraldSys TrustedID Secure Server EV CA</span>
+                               <span>EmeraldSys TrustedID Secure Server EV CA2</span>
                                <p className="spacing" />
-                               <span><a href="https://crt.pki.emeraldsys.xyz/trustedid_ev2022.crt" style={{ color: "#fff", textDecoration: "none" }}>Download CRT</a></span>
+                               <span><a href="https://crt.pki.emeraldsys.xyz/trustedid_ev2_2022.crt" style={{ color: "#fff", textDecoration: "none" }}>Download CRT</a></span>
                            </td>
                            <td className="details" nowrap="nowrap">
                                <span>Certificate Type: Intermediate</span>
                                <p className="spacing" />
                                <span>Issuer: EmeraldSys TrustedID Root Authority 2022</span>
                                <p className="spacing" />
-                               <span>Valid until: 13/Nov/2029</span>
+                               <span>Valid until: 27/Nov/2030</span>
                                <p className="spacing" />
-                               <span>Serial #: <span className="contentHex">1C:59:B4:3B:71:6B:D6:DB</span></span>
+                               <span>Serial #: <span className="contentHex">00:88:94:DD:3E:DE:44:D3:4A:E5:B7:C9:E4:88:C1:29</span></span>
                                <p className="spacing" />
-                               <span>SHA1 Fingerprint: <span className="contentHex">BE:31:8A:F2:15:34:FA:35:CB:CD:EB:89:3C:B4:3E:E5:85:38:67:B0</span></span>
+                               <span>SHA1 Fingerprint: <span className="contentHex">B0:F7:30:91:3B:D8:AC:21:98:AD:1D:6C:46:ED:D9:83:D8:F2:7D:6D</span></span>
                                <p className="spacing" />
-                               <span>SHA256 Fingerprint: <span className="contentHex">20:BB:44:A4:C5:F0:22:EB:21:4D:70:F4:9D:DB:D1:9E:39:BA:ED:8E:6B:22:1E:5A:86:00:07:B7:A7:19:64:0C</span></span>
+                               <span>SHA256 Fingerprint: <span className="contentHex">FC:C3:58:5B:4E:41:BE:EC:88:BD:81:E9:CF:57:EA:6E:C7:54:D4:73:90:54:13:71:72:16:EE:07:F4:1E:C4:7F</span></span>
                            </td>
                        </tr>
                        <tr>
