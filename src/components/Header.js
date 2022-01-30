@@ -19,7 +19,7 @@ const Header = () => {
     return (
         <header className="mainHeader">
             <div className="alignHeader">
-                <img src="https://emeraldsys.github.io/images/company2_banner_white.png" alt="Logo" style={{ height: "45px", marginTop: "15px" }} />
+                <img src="https://edge.cdn.emeraldsys.xyz/internal/assets/emeraldsys_new_nobg.png" alt="Logo" style={{ height: "64px", marginTop: "5px", marginLeft: "5px" }} />
             </div>
         </header>
     );
