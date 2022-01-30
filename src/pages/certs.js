@@ -42,6 +42,7 @@ const RootCertsPage = () => {
                                <span>EmeraldSys TrustedID Secure Server OV CA2</span>
                                <p className="spacing" />
                                <span><a href="https://crt.pki.emeraldsys.xyz/trustedid_ov2022.crt" style={{ color: "#fff", textDecoration: "none" }}>Download CRT</a></span>
+							   <span><a href="https://ov2022valid.tests.pki.emeraldsys.xyz" style={{ color: "#fff", textDecoration: "none" }}>Browser Test</a></span>
                            </td>
                            <td className="details" nowrap="nowrap">
                                <span>Certificate Type: Intermediate</span>
