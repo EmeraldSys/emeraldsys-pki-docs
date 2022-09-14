@@ -34,7 +34,7 @@
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^14.2.0",
     "babel-jest": "^28.1.0",
-    "babel-preset-gatsby": "^2.16.0",
+    "babel-preset-gatsby": "^2.23.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
