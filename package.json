@@ -30,7 +30,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
     "@testing-library/user-event": "^14.2.0",
     "babel-jest": "^28.1.0",
