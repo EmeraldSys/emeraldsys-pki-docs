@@ -4,7 +4,7 @@ import "./styles/Footer.css"
 const Footer = () => {
     return (
         <div className="mainFooter">
-            <p>Copyright (c) 2022 EmeraldSys</p>
+            <p>Copyright (c) {new Date().getFullYear()} EmeraldSys</p>
         </div>
     );
 };
